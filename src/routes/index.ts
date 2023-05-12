@@ -1,7 +1,6 @@
 import { Express } from 'express'
-import serialRoutes from './serial.routes'
+import AuthRoutes from './auth.routes'
 
 export default function setupRoutes(app: Express) {
-    app.use('/serial', serialRoutes)
-
+    app.use('/auth', AuthRoutes)
 }
