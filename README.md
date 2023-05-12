@@ -33,4 +33,4 @@ yarn build
 ## ✨ Community
 
 - [Discord](https://discord.gg/WTwZM3VT) - Come chat with the Nexteme community including the core team.
-- [Website](https://discord.gg/WTwZM3VT) - Official Website Nexteme
+- [Website](https://www.nexteme.com/) - Official Website Nexteme
