@@ -1,7 +1,7 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "express-starter-template",
+  "version": "1.0.1",
+  "description": "With Typescript & Prisma",
   "main": "main.js",
   "scripts": {
     "start": "npm run build && node ./dist/main.js",
