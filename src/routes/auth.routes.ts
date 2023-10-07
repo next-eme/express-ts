@@ -1,14 +1,10 @@
-import { Request, Response } from "express"
-
-const express = require('express')
+import { AuthController } from "@/controllers/AuthController"
+import express from "express"
 const router = express.Router()
 
-router.post('/login', (req: Request, res: Response) => {
-    res.send('Login...')
-})
+const authController = new AuthController()
 
-router.post('/register', (req: Request, res: Response) => {
-    res.send('Creating Account..')
-})
+router.post('/login', authController.login)
+router.post('/register',  authController.register)
 
 export default router

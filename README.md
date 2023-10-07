@@ -1,16 +1,21 @@
-# Starter Server
+# Starter Template
+The fastest way to start your server
+
 Node.js + Express + Typescript + Prisma
 
 
-### `installation`
+### `Installation`
 
-Just install packages by running
+1. install packages by running
 
 ```
 npm install
 ```
+2. make **.env** file by copy the current file **.env.example** and modify the values
+> note: paste the file in the root path
 
-### `development`
+
+### `Development`
 
 Start your server application with autoReload enabled.
 
